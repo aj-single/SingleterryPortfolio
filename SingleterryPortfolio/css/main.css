@@ -1,0 +1,141 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 500%;
+}
+.nav-space {
+    margin-top: 2%;
+}
+.name {
+    background: -webkit-linear-gradient(left top,#1b4996,#2162ce);
+    padding: 1%;
+    box-shadow: 0px 2px 5px grey;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    display: inline-block;
+    background-color: #5f646d;
+    text-align: center;
+    margin-left: 40%;
+    padding: 1%;
+    border-radius: 3%;
+    box-shadow: 0px 2px 5px #bcbfc4;
+    font-family: 'Roboto', sans-serif;
+}
+li:nth-child(2) {
+    margin-left: 2%;
+}
+li:nth-child(3) {
+    margin-left: 2%;
+}
+a {
+    color: white;
+
+}
+.image-row {
+    background: -webkit-linear-gradient(left top,#bcbfc4,#808284);
+    margin-top: 2%;
+    padding: 1%;
+    padding-bottom: 2%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+.bubble {
+    height: 10%;
+    width: 10%;
+    display: inline;
+    margin: auto;
+    text-align: center;
+
+}
+img {
+    height: 10%;
+    width: 20%;
+    border-radius: 20%;
+    padding: 2%;
+}
+img:nth-child(1) {
+    box-shadow: 10px 10px 5px grey;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+}
+img:nth-child(2) {
+    opacity: .5;
+}
+img:nth-child(3) {
+    box-shadow: 10px 10px 5px grey;
+
+}
+#contact-form {
+    visibility: hidden;
+    color: white;
+    background-color: grey;
+    height: 70%;
+    width: 70%;
+    padding: 2%;
+    text-align: center;
+    margin:auto;
+    margin-top: 5%;
+    box-shadow: 0px 2px 5px grey;
+}
+input {
+    border: none;
+    padding: 2%;
+    color: grey;
+
+}
+.why {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background: grey;
+    color: white;
+    font-size: 200%;
+    padding: 2%;
+}
+.question {
+    height: 25%;
+    width:25%;
+    background: #bcbfc4;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 1%;
+    margin: auto;
+    margin-top: 2%;
+}
+#button {
+    background: white;
+    
+    height: 2%;
+    width: 20%;
+    border: solid black;
+    padding-top: 1%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#button:hover {
+    background: #bcbfc4;
+    cursor: pointer;
+
+}
+.spacer {
+    margin: auto;
+    height: 30%;
+    width: auto;
+    background: grey;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 2%;
+}
